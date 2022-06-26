@@ -1,0 +1,80 @@
+.login-container{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  }
+  .login-container-center{
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+  .login-form{
+    width: 75%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #ddd;
+    box-shadow:2px 2px 0px 3px #ddd;
+  }
+  .submit-form-control{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .submit-form-control input{
+    padding: 10px;
+    background-color: #eee;
+    border: none;
+    outline: 0;
+  }
+  .password-container{
+    position: relative;
+    z-index: 1;
+  
+  }
+  .password-container input{
+    width: 100%;
+    position: relative;
+    z-index: 3;
+  
+  
+  }
+  .password-container button{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 3;
+  
+    cursor: pointer;
+    transform: translateY(-50%);
+    font-size: 20pt;
+    outline: 0;
+    display: flex;
+    align-items: center;
+    color: #323232;
+    border: none;
+    background: none;
+  }
+  .submit-form-btn{
+    width: 50%;
+    max-width: 200px;
+    display: flex;
+    padding: 10px 5px;
+    justify-content: center;
+    background-color: #00518f;
+    color: white;
+    cursor: pointer;
+    border: none;
+    align-self: center;
+    margin-bottom: 20px;
+  }
+  .login-path-anchor{
+    text-align: center;
+    font-size: 10pt;
+  }
